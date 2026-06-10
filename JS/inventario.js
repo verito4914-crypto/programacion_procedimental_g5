@@ -1,0 +1,7 @@
+var Codigo = document.getElementById("Codigo")
+var Nombre_producto = document.getElementById("Nombre_producto")
+var Precio_unit = document.getElementById("Precio_unit")
+var Cantidad = document.getElementById("Cantidad")
+var Marca_producto = document.getElementById("Marca_producto")
+var Categoria = document.getElementById("Categoria")
+var Unidad = document.getElementById("Unidad")
