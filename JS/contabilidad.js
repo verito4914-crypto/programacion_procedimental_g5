@@ -1,13 +1,26 @@
 var Ventas = document.getElementById("Ventas")
-
 var Ingresos = document.getElementById("Ingresos")
-
 var Egresos = document.getElementById("Egresos")
+var Concepto = document.getElementById("Concepto")
+var Fecha = document.getElementById("Fecha")
+var Valor = document.getElementById("Valor")
 
-var Cantidad = document.getElementById("Cantidad")
-
-var Marca_producto = document.getElementById("Marca_producto")
-
-var Categoria = document.getElementById("Categoria")
-
-var Unidad = document.getElementById("Unidad")
+function ValidarDatos(Ventas) {
+    if (Ventas == '' && Fecha == '' && Ingresos == '' && Egresos == '' && Valor == '') {
+        console.log("los campos estan vacios")
+    }
+    else {
+        if (Fecha == /[a-zA-Z]/) {
+            console.log("Los datos son incorrectos")
+        }
+        if (Ingresos == /[a-zA-Z]/) {
+            console.log("Los datos son incorrectos")
+        }
+        if (Egresos == /[a-zA-Z]/) {
+            console.log("Los datos son incorrectos")
+        }
+        if (Valor == /[a-zA-Z]/) {
+            console.log("Los datos son incorrectos")
+        }
+    }
+}
